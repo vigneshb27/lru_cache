@@ -1,0 +1,22 @@
+<%- include('partials/header') %> 
+<%- include('partials/navbar') %> 
+
+    <h1>You are browsing about the <%= name %> </h1>
+    <h2><%= description %></h2>
+    <p class = "subs"><%= subscribers %> Subscribers<br>Author : <%= author %> <span class = "icons"><i class="fab fa-facebook"></i><i class="fab fa-instagram-square"></i><i class="fab fa-whatsapp-square"></i><i class="fab fa-twitter-square"></i></span>
+
+    </p>
+   
+    <hr>
+   
+        <article>
+            
+          
+                <div class="img_align">
+                <img src="<%=img %> " alt="">
+                </div>
+
+           
+        </article>
+   <p><b><%= name %></b><%= details %> </p>
+<%- include('partials/footer') %> 

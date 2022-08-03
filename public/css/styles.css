@@ -1,0 +1,30 @@
+img{
+    max-width: 50%;
+    height: auto;
+   
+}
+.img_align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1, h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+i{
+    float: right;
+    margin-left: 10px;
+}
+.icons{
+    color: cornflowerblue;
+    font-size: 20px;
+    
+}
